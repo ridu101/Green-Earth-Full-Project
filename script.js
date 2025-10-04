@@ -76,7 +76,7 @@ const displayCards = (cards) => {
     cards.forEach(card => {
         const div = document.createElement("div");
         div.innerHTML = `
-            <div class="lg:w-[280px] h-[340px] p-5 rounded-xl space-y-3 bg-white shadow-md hover:bg-green-100 hover:shadow-xl transition duration-300 hover:-translate-y-2 relative">
+            <div class="lg:w-[280px] h-[360px] p-5 rounded-xl space-y-3 bg-white shadow-md hover:bg-green-100 hover:shadow-xl transition duration-300 hover:-translate-y-2 relative">
                 <div class="relative w-full h-[120px]">
                     <img class="w-full h-full object-cover rounded-xl" src="${card.image}" alt="image load failed">
                     <button class="absolute top-2 right-2 text-black bg-white text-sm rounded-full p-1 shadow-md info-btn" title="More Info">
